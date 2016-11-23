@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_addtab_grid_item"
+        android:layout_width="100dp"
+        android:layout_height="35dp">
+
+        <TextView
+            android:id="@+id/tv_add_item_tab_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="热点"
+            android:textColor="#40ff00"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

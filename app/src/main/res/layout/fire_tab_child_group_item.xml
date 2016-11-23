@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp">
+
+    <TextView
+        android:id="@+id/childGroupTV"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="数码"
+        android:textColor="#262626"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/iv_fire_tab_child_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/icon_arrow_down" />
+</RelativeLayout>
